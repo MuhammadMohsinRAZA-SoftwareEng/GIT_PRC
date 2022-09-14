@@ -1,0 +1,146 @@
+* {
+  background-color: ghostwhite;
+  color: black;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 90vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.facebook-logo {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  top: 180px;
+  width: fit-content;
+}
+
+.form-main-div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 800px;
+  bottom: 50px;
+  text-align: center;
+  width: 30%;
+  height: 70vh;
+  /* background-color: rebeccapurple; */
+}
+
+.facebook-logo img {
+  max-width: 300px;
+}
+
+.facebook-logo h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 0 30px;
+  line-height: 24px;
+  color: black;
+}
+
+.form-main-div .form-col {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 80px 80px 80px 80px;
+  width: 80wh;
+  height: 50vh;
+}
+
+.form-main-div .form-col .login-btn {
+  width: 100%;
+  margin: 5px 0;
+  height: 32px;
+  font-size: 14px;
+}
+
+.form-main-div .form-col input {
+  width: 100%;
+  margin: 5px 0;
+  height: 32px;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+}
+.form-main-div .form-col {
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  padding: 0 8px;
+  outline: none;
+}
+
+.form-main-div .form-col input:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.form-main-div .form-col .login-btn {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.form-main-div .form-col a {
+  color: #1877f2;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 10px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dadde1;
+  display: block;
+}
+
+.form-main-div .form-col a:hover {
+  text-decoration: underline;
+}
+
+.form-main-div .form-col .forgotpwd-btn {
+  background-color: #42b72a;
+  width: 240px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.form-col p {
+  font-size: 14px;
+}
+
+.form-col p a {
+  text-decoration: none;
+  color: #1c1e21;
+  font-weight: 600;
+}
+
+.form-col p a:hover {
+  text-decoration: underline;
+}

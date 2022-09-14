@@ -1,0 +1,42 @@
+*{
+    background-color:whitesmoke;
+    color: black;
+}
+.Main-div{
+    height: 320px;
+    width: 320px;
+    background-color: brown;
+}
+.div-box{
+    border: 12px solid black;
+    width: 120px;
+    height: 60px;
+}
+.outer-text{
+    font-size: 20px;
+}
+
+/* postions tags */
+
+.tags-positions{
+    position: relative;
+    border: 8px solid salmon;
+}
+
+
+
+
+
+
+
+
+@media only screen and(min-width:480px) and (max-width:767px){
+    .Main-div{
+        height: 500px;
+        width: 600px;
+    }
+
+    .outer-text{
+        font-size: 40px;
+    }
+}
